@@ -1,0 +1,12 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "chap-05.xdv" "chap-05.pdf" "chap-05" 0
+  "chap-05.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "chap-05.pdf"
+["xelatex"] 1564886174 "chap-05.tex" "chap-05.xdv" "chap-05" 1564886178
+  "c:/Users/Administrator/.texlive2018/texmf-var/web2c/xetex/xelatex.fmt" 1526742009 3731735 af8b2066c02010865c3c1d2b2f9f291d ""
+  "chap-05.aux" 1564886168 9 a94a2480d3289e625eea47cd1b285758 ""
+  "chap-05.tex" 1564886167 1711 f6a7289633b5484831f09510f9162cf5 ""
+  (generated)
+  "chap-05.xdv"
+  "chap-05.log"

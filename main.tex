@@ -1,0 +1,85 @@
+\documentclass[utf8, hyperref]{book}
+\usepackage{titletoc}
+\usepackage{titlesec}
+\usepackage{ctexcap}
+% \usepackage[b5paper,text={125mm,195mm},centering,left=1in,right=1in,top=1in,bottom=1in]{geometry}
+% a4paper,top=0.9cm,left=2cm,bottom=0.9cm,right=2cm,includehead,includefoot
+\usepackage[a4paper]{geometry}
+\usepackage{imakeidx}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{shorttoc} % 用来生成不那么繁琐的目录
+\usepackage{amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\makeindex
+
+\bibliographystyle{plain}
+
+\begin{document}
+
+\title{斯坦福CS224N汉语笔记 \\ Stanford CS224N Note in Chinese}
+\author{Chong \\ Contact me at \url{zhangchong.july08@gmail.com}}
+\date{\today}
+
+\frontmatter
+
+\maketitle
+% \include{nonchap_前言.tex} % as a chapter
+% \renewcommand\contentsname{目录}
+\tableofcontents
+% \shorttableofcontents{目录}{1}
+
+
+\mainmatter
+
+% 尽量不要用part，没必要空一页
+
+% \part{总论}
+\include{chap-04/chap-04}
+\include{chap-05/chap-05}
+% 其他chapter类似，见章节tex文件内部
+
+% \part{植物多样性分区概述}
+% 其他chapter类似
+
+% index的使用
+% \index{some concept}在文中是不体现的，只是可以通过最后的索引列表找到对应位置
+
+% \include{angiosperms}
+
+\appendix
+% \include{appendix_01.tex} % as a chapter
+
+\chapter{APG分类系统的科名}
+
+
+内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容文内容正文内容正文内容正文hello\index{内容} % 这个index配合最后的索引部分使用
+
+
+hello内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容正文内容正文\cite{DK1}.
+
+
+\renewcommand\indexname{索引}
+\printindex
+\addcontentsline{toc}{chapter}{索引}
+
+
+\backmatter
+
+
+\addcontentsline{toc}{chapter}{参考文献}
+
+
+\begin{thebibliography}{参考文献}
+\bibitem[Knuth1 et al. 1997]{this_notes} D. Knuth, T.A.O.C.P. , Vol.1, Addison-Wesley, 1997.
+\bibitem[Knuth2]{DK2} D. Knuth, T.A.O.C.P. , Vol.2, Addison-Wesley, 1997.
+\bibitem[TONG YH 2014]{TONG} TONG YH, PANG KS, XIAN NH,2014. Carpinus insularis (Betulaceae), A new species from HongKong [J]. J Trop Subtrop Bot, 22(2): 121-124. [童毅华， 彭权森，夏念和，2014.香港桦木科一新种——香港鹅耳枥 [J]. 热带亚热带植物学报，22(2):121-124.]
+\bibitem[XIA NH 2008]{XIA} XIA NH, DENG YF, YIP KL,2008. Syzygium impressum (Myrtaceae), A new species from HongKong [J]. J Trop Subtrop Bot, 16(1):19-22. [夏念和，邓云飞，叶国梁，2008. 香港桃金娘科一新种-凹脉赤楠 [J].热带亚热带植物学报，16(1):19-22.]
+\end{thebibliography}
+
+\include{non_后记/non_后记}
+
+\end{document}

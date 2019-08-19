@@ -1,0 +1,30 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}依存句法分析 \\ Dependency Parsing}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}依存语法和依存结构 \\ Dependency Grammar and Dependency Structure}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}依存句法分析 \\ Dependency Parsing}{2}{subsection.1.1.1}% 
+\contentsline {subsubsection}{依存树 \\ Dependency Tree}{2}{subsubsection*.3}% 
+\contentsline {subsubsection}{依存句法分析的任务 \\ The Dependency Parsing Problem}{3}{subsubsection*.4}% 
+\contentsline {subsection}{\numberline {1.1.2}基于状态转移的依存分析 \\ Transition-Based Dependency Parsing}{3}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}基于贪心方法的状态转移依存分析 \\ Greedy Deterministic Transition-Based Parsing}{3}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.4}神经依存分析 \\ Neural Dependency Parsing}{4}{subsection.1.1.4}% 
+\contentsline {section}{\numberline {1.2}章节附录}{6}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}成分语法 \\ Constituency Grammar}{6}{subsection.1.2.1}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}语言模型和RNN \\ Language Models}{11}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}语言模型 \\ Language Models}{11}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}介绍 \\ Introduction}{11}{subsection.2.1.1}% 
+\contentsline {subsubsection}{N元语法 \\ N-Gram Language Models}{12}{subsubsection*.7}% 
+\contentsline {subsection}{\numberline {2.1.2}基于N元语法计算条件共现频率 \\ Calculation Prediction Probability in N-Gram Based Language Models}{12}{subsection.2.1.2}% 
+\contentsline {subsubsection}{基于N元语法计算条件共现频率}{12}{subsubsection*.8}% 
+\contentsline {subsubsection}{预设参数n对n元语法模型的影响}{13}{subsubsection*.9}% 
+\contentsline {subsubsection}{N元语法模型的评价}{14}{subsubsection*.10}% 
+\contentsline {subsection}{\numberline {2.1.3}基于窗口的语言模型 \\ Window-based Neural Language Model}{14}{subsection.2.1.3}% 
+\contentsline {section}{\numberline {2.2}循环神经网络（RNN）的应用 \\ Application of RNN}{14}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}RNN语言模型的特点 \\ Advantages, Disadvantages and Applications of RNNs}{16}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}梯度爆炸和梯度消失的对策 \\ Solution to the Exploding and Vanishing Gradients}{16}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}基于RNN的机器翻译 \\ Application: RNN Translation Model}{17}{subsection.2.2.3}% 
+\contentsline {section}{\numberline {2.3}章节附录}{18}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}维数灾难 \\ Curse of Dimensionality}{18}{subsection.2.3.1}% 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}APG分类系统的科名}{21}{appendix.A}% 
+\contentsline {chapter}{索引}{23}{appendix*.13}% 
+\contentsline {chapter}{参考文献}{25}{appendix*.13}% 
+\contentsline {chapter}{后记}{27}{appendix*.15}% 
+\contentsfinish 

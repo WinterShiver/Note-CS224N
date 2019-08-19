@@ -1,0 +1,4 @@
+PWD C:/Users/Administrator/Desktop/book224/chap-05
+INPUT c:/Users/Administrator/.texlive2018/texmf-var/web2c/xetex/xelatex.fmt
+INPUT chap-05.tex
+OUTPUT chap-05.log
